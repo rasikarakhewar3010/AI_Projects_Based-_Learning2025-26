@@ -57,8 +57,8 @@ This project demonstrates the integration of symbolic AI (Prolog) with modern we
 
 ```mermaid
 graph LR
-    A[Mobile App (React Native)] -- HTTP POST --> B[Node.js Server]
-    B -- Spawns Process --> C[SWI-Prolog]
+    A["Mobile App (React Native)"] -- HTTP POST --> B["Node.js Server"]
+    B -- Spawns Process --> C["SWI-Prolog"]
     C -- JSON Output --> B
     B -- JSON Response --> A
 ```
